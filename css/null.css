@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: RF Dewi Extended;
-    src: url(../fonts/RFDewiExpanded-Ultrabold.ttf);
+    src: url(../fonts/RFDewiExtended-Ultrabold.ttf);
     font-weight: 800;
     font-style: normal;
 }
@@ -68,7 +68,7 @@ html,
 body {
     color: #ffffff;
     min-height: 100%;
-    background: #ffffff;
+    background: #F4F8FA;
     width: 100%;
     font-size: 100%;
     line-height: 1;
