@@ -1,4 +1,4 @@
-.welcome__wrapper {
+.intro__wrapper {
     margin-top: 115px;
     display: flex;
     flex-direction: row;
@@ -65,6 +65,10 @@
     flex-direction: column;
     padding: 40px 48px;
     gap: 40px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: rgba(50, 73, 85, 0.1);
+    flex: 0 1 485px;
 }
 
 .title {
@@ -77,8 +81,7 @@
 }
 
 .input__box {
-    border: 1px solid #C4C7CF;
-    border-radius: 30px;
+    
 }
 
 .input__box input {
@@ -88,5 +91,9 @@
     font-size: 16px;
     line-height: 24;
     color: #A9ABB6;
-    padding: 16px;
+    padding: 16px 8px;
+    border: 1px solid #C4C7CF;
+    border-radius: 30px;
+    width: 100%;
+    flex: 0 1 389px;
 }
