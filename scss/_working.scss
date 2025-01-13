@@ -1,0 +1,140 @@
+.working__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 144px 0px;
+}
+
+.working__title {
+    font-family: RF Dewi Extended;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    color: #262931;
+}
+
+.working__items {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.vector__1 {
+    width: 93px;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+    left: 230px;
+}
+
+.path {
+    width: 180px;
+    height: 111px;
+    position: absolute;
+    left: 44%;
+    top: 47%;
+}
+
+.vector__2 {
+    width: 152px;
+    height: 88px;
+    position: absolute;
+    left: 67%;
+    top: 50%;
+}
+
+.working__item__one {
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+    img {
+        width: 260px;
+        height: 291px;
+    }
+}
+
+.item__one__text__box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.working__item__two {
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+    padding-left: 31px;
+    img {
+        width: 289px;
+        height: 273px;
+    }
+}
+
+.item__two__text__box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.working__item__three {
+    display: flex;
+    flex-direction: column;
+    gap: 145px;
+    padding-left: 31px;
+    img {
+        width: 262px;
+        height: 271px;
+    }
+}
+
+.working__item__four {
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    padding-left: 31px;
+    img {
+        width: 259px;
+        height: 271px;
+    }
+}
+
+.item__four__text__box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item__title {
+    font-family: RF Dewi Extended;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262931;
+}
+
+.item__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #61636D;
+}
+
+.working__blue {
+    color: #0176FF;
+}
+
+.become {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #0176FF;
+    padding: 16px 32px;
+    border-radius: 72px;
+    align-self: center;
+}

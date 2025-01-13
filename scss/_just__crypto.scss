@@ -1,0 +1,44 @@
+.just__crypto__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-bottom: 144px;
+}
+
+.title__box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 265px;
+}
+
+.just__title {
+    font-family: RF Dewi Extended;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #262931;
+    text-align: center;
+}
+
+.blue__title {
+    color: #0176FF;
+}
+
+.just__txt {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #61636D;
+    text-align: center;
+    b {
+        color: #262931;
+    }
+}
+
+.video {
+    align-self: center;
+}

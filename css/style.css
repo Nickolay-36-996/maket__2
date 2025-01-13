@@ -35,8 +35,8 @@
 .intro {
   background-image: url(../img/Frame\ 13.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: 100% 100%;
+  background-position: 0;
 }
 
 .intro__wrapper {
@@ -197,4 +197,322 @@
   line-height: 19px;
   color: #0176FF;
   text-align: center;
+}
+
+.about {
+  background: white;
+  background-image: url(../img/Frame\ 21.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 1620px 93px;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 253px;
+  padding-top: 80px;
+  padding-bottom: 167px;
+}
+
+.img__box {
+  display: flex;
+  align-items: center;
+  flex: 0 1 405px;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 0 1 487px;
+}
+
+.about__title {
+  font-family: RF Dewi Extended;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: #262931;
+}
+
+.text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.bold {
+  color: #262931;
+}
+
+.about__text {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #61636D;
+}
+
+.working__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 144px 0px;
+}
+
+.working__title {
+  font-family: RF Dewi Extended;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: #262931;
+}
+
+.working__items {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.vector__1 {
+  width: 93px;
+  height: 54px;
+  position: absolute;
+  top: 50%;
+  left: 230px;
+}
+
+.path {
+  width: 180px;
+  height: 111px;
+  position: absolute;
+  left: 44%;
+  top: 47%;
+}
+
+.vector__2 {
+  width: 152px;
+  height: 88px;
+  position: absolute;
+  left: 67%;
+  top: 50%;
+}
+
+.working__item__one {
+  display: flex;
+  flex-direction: column;
+  gap: 94px;
+}
+.working__item__one img {
+  width: 260px;
+  height: 291px;
+}
+
+.item__one__text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.working__item__two {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+  padding-left: 31px;
+}
+.working__item__two img {
+  width: 289px;
+  height: 273px;
+}
+
+.item__two__text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.working__item__three {
+  display: flex;
+  flex-direction: column;
+  gap: 145px;
+  padding-left: 31px;
+}
+.working__item__three img {
+  width: 262px;
+  height: 271px;
+}
+
+.working__item__four {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+  padding-left: 31px;
+}
+.working__item__four img {
+  width: 259px;
+  height: 271px;
+}
+
+.item__four__text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item__title {
+  font-family: RF Dewi Extended;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #262931;
+}
+
+.item__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #61636D;
+}
+
+.working__blue {
+  color: #0176FF;
+}
+
+.become {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  background-color: #0176FF;
+  padding: 16px 32px;
+  border-radius: 72px;
+  align-self: center;
+}
+
+.just__crypto__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  padding-bottom: 144px;
+}
+
+.title__box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 265px;
+}
+
+.just__title {
+  font-family: RF Dewi Extended;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #262931;
+  text-align: center;
+}
+
+.blue__title {
+  color: #0176FF;
+}
+
+.just__txt {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #61636D;
+  text-align: center;
+}
+.just__txt b {
+  color: #262931;
+}
+
+.video {
+  align-self: center;
+}
+
+.authorization {
+  background-color: #0176FF;
+  background-image: url(../img/Frame\ 14.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.authorization__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 0;
+}
+
+.authorization__txt__box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-right: 400px;
+}
+
+.authorization__title {
+  font-family: RF Dewi Extended;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+}
+.authorization__title span {
+  color: #FBDC7C;
+}
+
+.authorization__txt {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  padding-right: 50px;
+}
+.authorization__txt b {
+  font-weight: 600;
+}
+
+.registration__box {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.registration {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262931;
+  background-color: white;
+  border-radius: 72px;
+  padding: 16px 32px;
+}
+
+.create {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
