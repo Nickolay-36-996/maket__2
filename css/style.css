@@ -202,7 +202,7 @@
 .about {
   background: white;
   background-image: url(../img/Frame\ 21.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: bottom;
   background-size: 1620px 93px;
 }
@@ -257,10 +257,14 @@
   color: #61636D;
 }
 
+.three {
+  padding-right: 10px;
+}
+
 .working__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  align-items: center;
   padding: 144px 0px;
 }
 
@@ -277,6 +281,8 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  padding-top: 64px;
+  padding-bottom: 60px;
 }
 
 .vector__1 {
@@ -291,16 +297,16 @@
   width: 180px;
   height: 111px;
   position: absolute;
-  left: 44%;
-  top: 47%;
+  left: 46%;
+  top: 49%;
 }
 
 .vector__2 {
   width: 152px;
   height: 88px;
   position: absolute;
-  left: 67%;
-  top: 50%;
+  left: 808px;
+  top: 303px;
 }
 
 .working__item__one {
@@ -362,6 +368,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding-left: 46px;
 }
 
 .item__title {
@@ -384,6 +391,10 @@
 
 .working__blue {
   color: #0176FF;
+}
+
+.become__box {
+  padding-top: 32px;
 }
 
 .become {
@@ -515,4 +526,96 @@
   font-size: 16px;
   line-height: 24px;
   color: white;
+}
+
+.support {
+  background-image: url(../img/Asset\ 1\ 4.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.support__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 166px;
+  padding-bottom: 103px;
+  gap: 56px;
+}
+
+.support__title {
+  font-family: RF Dewi Extended;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: black;
+  text-align: center;
+  padding: 0 126px;
+}
+
+.support__blue {
+  color: #0176FF;
+}
+
+.box__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info__content__one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 75px;
+  padding-right: 83px;
+  position: relative;
+}
+
+.column__two {
+  position: relative;
+  right: 30px;
+}
+
+.comumn__three {
+  text-align: end;
+}
+
+.info__content__two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 75px;
+  padding-left: 65px;
+  position: relative;
+}
+
+.paragraph__one {
+  text-align: end;
+  position: relative;
+  right: 70px;
+}
+
+.paragraph__two {
+  position: relative;
+  right: 2px;
+}
+
+.paragraph__three {
+  text-align: start;
+  position: relative;
+  right: 66px;
+}
+
+.content__txt {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #61636D;
+  text-align: end;
+}
+.content__txt b {
+  color: black;
 }/*# sourceMappingURL=style.css.map */

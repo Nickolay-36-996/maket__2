@@ -1,7 +1,7 @@
 .about {
     background: white;
     background-image: url(../img/Frame\ 21.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: bottom;
     background-size: 1620px 93px;
 }
@@ -54,4 +54,8 @@
     font-weight: 400;
     line-height: 26px;
     color: #61636D;
+}
+
+.three {
+    padding-right: 10px;
 }

@@ -1,0 +1,90 @@
+.support {
+    background-image: url(../img/Asset\ 1\ 4.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.support__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 166px;
+    padding-bottom: 103px;
+    gap: 56px;
+}
+
+.support__title {
+    font-family: RF Dewi Extended;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: black;
+    text-align: center;
+    padding: 0 126px;
+}
+
+.support__blue {
+    color: #0176FF;
+}
+
+.box__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info__content__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+    padding-right: 83px;
+    position: relative;
+}
+
+.column__two {
+    position: relative;
+    right: 30px;
+}
+
+.comumn__three {
+    text-align: end;
+}
+
+.info__content__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+    padding-left: 65px;
+    position: relative;
+}
+
+.paragraph__one {
+    text-align: end;
+    position: relative;
+    right: 70px;
+}
+
+.paragraph__two {
+    position: relative;
+    right: 2px;
+}
+
+.paragraph__three {
+    text-align: start;
+    position: relative;
+    right: 66px;
+}
+
+.content__txt {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #61636D;
+    text-align: end;
+    b {
+        color: black;
+    }
+}
