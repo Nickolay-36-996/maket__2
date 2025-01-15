@@ -1,0 +1,130 @@
+.answers__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-bottom: 120px;
+}
+
+.answers__title {
+    font-family: RF Dewi Extended;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #262931;
+    span {
+        color: #0176FF;
+    }
+}
+
+.answers__content {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.details {
+    background-color: white;
+    padding: 24px 24px;
+    border-radius: 16px;
+    cursor: pointer;
+    summary {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #262931;
+        padding-right: 207px;
+    }
+}
+
+.details__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 1px solid #DCDDE5;
+}
+
+.details__items {
+    align-self: flex-start;
+    padding-left: 24px;
+}
+
+.details__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #262931;
+}
+
+.answer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 12px 32px 0px rgba(50, 73, 85, 0.1);
+    padding: 40px 48px;
+    margin-top: 32px;
+}
+
+.answer__text__box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.answer__title {
+    font-family: RF Dewi Extended;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262931;
+    text-align: center;
+}
+
+.answer__txt {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #61636D;
+    text-align: center;
+}
+
+.answer__input__box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input__answer {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A9ABB6;
+    padding: 16px;
+    border-radius: 30px;
+    border: 1px solid #C4C7CF;
+}
+
+.send {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262931;
+    padding: 16px 40px;
+    border: 1px solid #0176FF;
+    border-radius: 72px;
+    align-self: center;
+}
