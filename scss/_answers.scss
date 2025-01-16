@@ -23,20 +23,39 @@
     gap: 32px;
 }
 
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 0 1 682px;
+}
+
 .details {
     background-color: white;
     padding: 24px 24px;
     border-radius: 16px;
     cursor: pointer;
-    summary {
+    & summary {
         font-family: Inter;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
         color: #262931;
-        padding-right: 207px;
+        list-style: none;
+        position: relative;
     }
+}
+
+summary::before {
+    content: url("../img/icon.svg");
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+}
+
+details[open] summary::before {
+    content: url('../img/icon\ \(1\).svg');
 }
 
 .details__content {
@@ -61,6 +80,10 @@
     color: #262931;
 }
 
+.answers__form__box {
+    flex: 0 1 485px;
+}
+
 .answer__form {
     display: flex;
     flex-direction: column;
@@ -76,6 +99,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding: 0 20px;
 }
 
 .answer__title {

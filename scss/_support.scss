@@ -60,20 +60,21 @@
 }
 
 .paragraph__one {
-    text-align: end;
+    text-align: start;
     position: relative;
-    right: 70px;
+    left: 58px;
 }
 
 .paragraph__two {
     position: relative;
-    right: 2px;
+    left: 75px;
 }
 
 .paragraph__three {
     text-align: start;
     position: relative;
-    right: 66px;
+    left: 63px;
+    text-align: start;
 }
 
 .content__txt {
@@ -83,7 +84,6 @@
     font-size: 16px;
     line-height: 22px;
     color: #61636D;
-    text-align: end;
     b {
         color: black;
     }
