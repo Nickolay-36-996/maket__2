@@ -144,4 +144,13 @@
     padding: 16px 32px;
     border-radius: 72px;
     align-self: center;
+    transition: linear .3s;
+}
+
+.become:hover {
+    box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+}
+
+.become:active {
+    box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 1);
 }

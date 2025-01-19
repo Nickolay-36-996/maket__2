@@ -50,6 +50,15 @@
     font-size: 16px;
     line-height: 19px;
     color: #61636D;
+    transition: linear .3s;
+}
+
+.link__footer:hover {
+    color: #262931;
+}
+
+.link__footer:active {
+    color: #262931;
 }
 
 .contacts {
@@ -69,6 +78,14 @@
     flex-direction: row;
     gap: 8px;
     align-items: center;
+    transition: linear .3s;
+}
+
+.footer__authorization:hover {
+    color: #000000;
+    path {
+        fill: #000000;
+    }
 }
 
 .footer__email {
@@ -82,6 +99,14 @@
     flex-direction: row;
     gap: 8px;
     align-items: center;
+    transition: linear .3s;
+}
+
+.footer__email:hover {
+    color: #000000;
+    path {
+        fill: #000000;
+    }
 }
 
 .footer__down {

@@ -18,6 +18,15 @@
   font-size: 16px;
   line-height: 19px;
   color: #61636D;
+  transition: linear 0.3s;
+}
+
+.list__a:hover {
+  color: #262931;
+}
+
+.list__a:active {
+  color: #262931;
 }
 
 .entered {
@@ -30,6 +39,14 @@
   align-items: center;
   flex-direction: row;
   gap: 8px;
+  transition: linear 0.3s;
+}
+
+.entered:hover {
+  color: #000000;
+}
+.entered:hover path {
+  fill: #000000;
 }
 
 .burger__menu {
@@ -161,6 +178,15 @@
   border-radius: 72px;
   padding: 16px 32px;
   text-align: center;
+  transition: linear 0.3s;
+}
+
+.link__partners:hover {
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+}
+
+.link__partners:active {
+  box-shadow: inset 0px 0px 10px 0px rgb(27, 83, 150);
 }
 
 .login {
@@ -202,6 +228,20 @@
   border-radius: 30px;
   width: 100%;
   flex: 0 1;
+  transition: linear 0.3s;
+}
+
+.input__box input:hover {
+  border: 1px solid rgb(97, 99, 109);
+}
+
+.input__box input:focus {
+  outline: 3px solid rgba(0, 143, 248, 0.2);
+}
+
+.input__box:invalid {
+  border: 1px solid #EE5656;
+  box-shadow: 0px 0px 0px 3px rgba(255, 125, 137, 0.2);
 }
 
 .password__box {
@@ -242,6 +282,16 @@
   padding: 16px 40px;
   text-align: center;
   align-self: center;
+  transition: linear 0.3s;
+}
+
+.entered__to__account:hover {
+  background: #0176FF;
+  color: white;
+}
+
+.entered__to__account:active {
+  box-shadow: inset 0px 0px 10px 0px rgb(27, 83, 150);
 }
 
 .dont__account {
@@ -262,6 +312,11 @@
   line-height: 19px;
   color: #0176FF;
   text-align: center;
+  transition: linear 0.3s;
+}
+
+.registration__intro:hover {
+  color: #175297;
 }
 
 @media (max-width: 992px) {
@@ -477,6 +532,15 @@
   padding: 16px 32px;
   border-radius: 72px;
   align-self: center;
+  transition: linear 0.3s;
+}
+
+.become:hover {
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+}
+
+.become:active {
+  box-shadow: inset 0px 0px 10px 0px rgb(27, 83, 150);
 }
 
 .just__crypto__wrapper {
@@ -522,6 +586,7 @@
 
 .video {
   align-self: center;
+  border-radius: 30px;
 }
 
 .authorization {
@@ -854,6 +919,20 @@ details[open] summary::before {
   padding: 16px;
   border-radius: 30px;
   border: 1px solid #C4C7CF;
+  transition: linear 0.3s;
+}
+
+.input__answer:hover {
+  border: 1px solid rgb(97, 99, 109);
+}
+
+.input__answer:focus {
+  outline: 3px solid rgba(0, 143, 248, 0.2);
+}
+
+.input__answer:invalid {
+  border: 1px solid #EE5656;
+  box-shadow: 0px 0px 0px 3px rgba(255, 125, 137, 0.2);
 }
 
 .send {
@@ -867,6 +946,16 @@ details[open] summary::before {
   border: 1px solid #0176FF;
   border-radius: 72px;
   align-self: center;
+  transition: linear 0.3s;
+}
+
+.send:hover {
+  background: #0176FF;
+  color: white;
+}
+
+.send:active {
+  box-shadow: inset 0px 0px 10px 0px rgb(27, 83, 150);
 }
 
 .footer {
@@ -921,6 +1010,15 @@ details[open] summary::before {
   font-size: 16px;
   line-height: 19px;
   color: #61636D;
+  transition: linear 0.3s;
+}
+
+.link__footer:hover {
+  color: #262931;
+}
+
+.link__footer:active {
+  color: #262931;
 }
 
 .contacts {
@@ -940,6 +1038,14 @@ details[open] summary::before {
   flex-direction: row;
   gap: 8px;
   align-items: center;
+  transition: linear 0.3s;
+}
+
+.footer__authorization:hover {
+  color: #000000;
+}
+.footer__authorization:hover path {
+  fill: #000000;
 }
 
 .footer__email {
@@ -953,6 +1059,14 @@ details[open] summary::before {
   flex-direction: row;
   gap: 8px;
   align-items: center;
+  transition: linear 0.3s;
+}
+
+.footer__email:hover {
+  color: #000000;
+}
+.footer__email:hover path {
+  fill: #000000;
 }
 
 .footer__down {

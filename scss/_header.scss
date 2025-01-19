@@ -18,6 +18,15 @@
     font-size: 16px;
     line-height: 19px;
     color: #61636D;
+    transition: linear .3s;
+}
+
+.list__a:hover {
+    color: #262931;
+}
+
+.list__a:active {
+    color: #262931;
 }
 
 .entered {
@@ -30,6 +39,14 @@
     align-items: center;
     flex-direction: row;
     gap: 8px;
+    transition: linear .3s;
+}
+
+.entered:hover {
+    color: #000000;
+    path {
+        fill: #000000;
+    }
 }
 
 .burger__menu {

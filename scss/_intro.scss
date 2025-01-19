@@ -62,6 +62,15 @@
     border-radius: 72px;
     padding: 16px 32px;
     text-align: center;
+    transition: linear .3s;
+}
+
+.link__partners:hover {
+    box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+}
+
+.link__partners:active {
+    box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 1);
 }
 
 .login {
@@ -103,6 +112,20 @@
     border-radius: 30px;
     width: 100%;
     flex: 0 1;
+    transition: linear .3s;
+}
+
+.input__box input:hover {
+    border: 1px solid rgba(97, 99, 109, 1);
+}
+
+.input__box input:focus {
+    outline: 3px solid #008FF833;
+}
+
+.input__box:invalid {
+    border: 1px solid #EE5656;
+    box-shadow: 0px 0px 0px 3px rgba(255, 125, 137, 0.2);
 }
 
 .password__box {
@@ -143,6 +166,16 @@
     padding: 16px 40px;
     text-align: center;
     align-self: center;
+    transition: linear .3s;
+}
+
+.entered__to__account:hover {
+    background: #0176FF;
+    color: white;
+}
+
+.entered__to__account:active {
+    box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 1);
 }
 
 .dont__account {
@@ -163,6 +196,11 @@
     line-height: 19px;
     color: #0176FF;
     text-align: center;
+    transition: linear .3s;
+}
+
+.registration__intro:hover {
+    color: #175297;
 }
 
 @media(max-width:992px) {
