@@ -203,8 +203,38 @@
     color: #175297;
 }
 
+.mobile {
+    display: none;
+}
+
 @media(max-width:992px) {
     .intro__wrapper {
         gap: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 57px;
+    }
+
+    .innovation {
+        flex: 0;
+    }
+
+    .innovation__h1 {
+        max-width: 100%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .innovation__p {
+        max-height: 100%;
+    }
+
+    .link__partners {
+        align-self: center;
+        width: 100%;
+        border-radius: 72px;
+        text-align: center;
     }
 }

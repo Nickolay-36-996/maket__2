@@ -16,3 +16,14 @@ const burger = document.querySelector(".burger__menu")
 burger.addEventListener("click",function(){
     burger.classList.toggle("burger__active")
 })
+
+let name = 'John';
+let admin;
+admin = 'John'
+console.log(admin);
+
+let earth;
+let user;
+
+// let Name = prompt ("Your Name?")
+// console.log(Name);

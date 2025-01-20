@@ -108,10 +108,14 @@
         gap: 15px;
     }
     .list {
-        gap: 15px;;
+        display: none;
     }
 
-    .nav {
-        flex: 0 1 784px;
+    .entered {
+        display: none;
+    }
+
+    .burger__menu {
+        display: block;
     }
 }

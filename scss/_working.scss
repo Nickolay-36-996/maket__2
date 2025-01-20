@@ -1,7 +1,6 @@
 .working__wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 144px 0px;
 }
 
@@ -20,22 +19,27 @@
     position: relative;
     padding-top: 64px;
     padding-bottom: 60px;
+    overflow-x: auto;
+}
+
+.working__items::-webkit-scrollbar {
+    width: 0;
 }
 
 .vector__1 {
     width: 93px;
     height: 54px;
     position: absolute;
-    top: 50%;
-    left: 230px;
+    top: 303px;
+    left: 233px;
 }
 
 .path {
     width: 180px;
     height: 111px;
     position: absolute;
-    left: 46%;
-    top: 49%;
+    left: 532px;
+    top: 296px;
 }
 
 .vector__2 {
