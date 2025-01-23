@@ -9,7 +9,6 @@
     padding-top: 166px;
     padding-bottom: 103px;
     gap: 56px;
-    align-items: center;
 }
 
 .support__title {
@@ -21,6 +20,7 @@
     color: black;
     text-align: center;
     max-width: 697px;
+    align-self: center;
 }
 
 .support__blue {
@@ -92,5 +92,98 @@
     color: #61636D;
     b {
         color: black;
+    }
+}
+
+@media(max-width:992px) {
+    .support{
+        background: #F4F8FA;
+    }
+
+    .support__wrapper {
+        flex-wrap: wrap;
+        padding-top: 64px;
+        padding-bottom: 33px;
+        gap: 24px;
+    }
+    
+    .support__title {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: start;
+        align-self: initial;
+    }
+
+    .box__content {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .info__content__one {
+        order: 1;
+        gap: 16px;
+        padding-right: 0;
+    }
+
+    .column__two {
+        right: 0;
+    }
+
+    .comumn__three {
+        right: 0;
+        text-align: start;
+    }
+
+    .info__content__two {
+        order: 2;
+        gap: 16px;
+        padding-left: 0;
+    }
+
+    .paragraph__one {
+        left: 0;
+    }
+
+    .paragraph__two {
+        left: 0;
+    }
+
+    .paragraph__three {
+        left: 0;
+    }
+
+    .people {
+        order: 3;
+        flex: 1 1 209px;
+        padding-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../img/Asset\ 1\ 4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        & img {
+            max-width: 450px;
+            max-height: 511px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .content__txt {
+        padding-left: 13px;
+        position: relative;
+    }
+
+    .content__txt::before {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: #0176FF;
+        border-radius: 100%;
+        position: absolute;
+        top: 9px;
+        left: 0;
     }
 }
