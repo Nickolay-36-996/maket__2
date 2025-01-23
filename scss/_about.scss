@@ -8,8 +8,7 @@
 
 .about__wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 253px;
     padding-top: 80px;
     padding-bottom: 167px;
@@ -61,5 +60,38 @@
 }
 
 @media(max-width: 992px) {
-    
+    .about {
+        background: white;
+    }
+    .about__wrapper {
+        padding: 40px 12px;
+        gap: 40px;
+    }
+
+    .img__box {
+        flex: 1 1 240px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .about__info {
+        flex: 1 1 280px;
+        gap: 16px;
+    }
+
+    .about__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text__box {
+        gap: 8px;
+    }
+
+    .about__text {
+        font-size: 14px;
+        line-height: 22px;
+    }
 }

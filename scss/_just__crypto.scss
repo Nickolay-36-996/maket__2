@@ -43,3 +43,35 @@
     align-self: center;
     border-radius: 30px;
 }
+
+@media(max-width: 992px) {
+    .just__crypto__wrapper {
+        flex-wrap: wrap;
+        flex-direction: initial;
+        padding-bottom: 64px;
+    }
+
+    .title__box {
+        gap: 16px;
+        padding: 0;
+        flex: 1 1 296px;
+        min-width: 296px;
+    }
+
+    .just__title {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: start;
+    }
+
+    .just__txt {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: start;
+    }
+
+    .video {
+        flex: 1 1 296px;
+        min-width: 296px;
+    }
+}

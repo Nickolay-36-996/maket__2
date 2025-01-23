@@ -18,7 +18,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 56px;
-    flex: 0 1 576px;
 }
 
 .innovation__h1 {
@@ -209,32 +208,62 @@
 
 @media(max-width:992px) {
     .intro__wrapper {
-        gap: 30px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
         padding-top: 57px;
+        padding-bottom: 64px;
     }
 
     .innovation {
-        flex: 0;
+        gap: 24px;
     }
 
     .innovation__h1 {
-        max-width: 100%;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .innovation__p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .link__partners {
+        border-radius: 72px;
+        width: 100%;
+        text-align: center;
+        padding: 12px 88px;
     }
 
     .mobile {
         display: block;
     }
 
-    .innovation__p {
-        max-height: 100%;
+    .login {
+        padding: 18px 12px;
+        flex: 1 1 300px;
+        gap: 18px;
     }
 
-    .link__partners {
-        align-self: center;
+    .input__box {
+        gap: 12px;
+        input {
+            padding: 12px 20px;
+        }
+    }
+
+    .eye {
+        top: 17px;
+    }
+
+    .entered__to__account {
         width: 100%;
-        border-radius: 72px;
-        text-align: center;
+        padding: 12px 115px;
+    }
+
+    .dont__account {
+        font-size: 14px;
+        line-height: 17px;
     }
 }
