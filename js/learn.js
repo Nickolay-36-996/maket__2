@@ -1,7 +1,9 @@
 'use strict'
-let first = '12'
-console.log(typeof first)
-let B = Number(first)
-console.log(typeof B)
-let age = Number('R')
-console.log(age)
+let age = prompt('Призывной возраст?');
+if (age < 18) {
+    alert('гуляй');
+} else if (age >= 18 && age <27) {
+    alert('в армию');
+} else {
+    alert('на работу');
+}
