@@ -12,6 +12,7 @@
     font-style: normal;
     font-size: 40px;
     line-height: 48px;
+    font-weight: 800;
     color: #262931;
     span {
         color: #0176FF;
@@ -20,4 +21,24 @@
 
 .video__two {
     border-radius: 30px;
+}
+
+@media(max-width: 992px) {
+    .educated__wrapper {
+        flex-wrap: wrap;
+        flex-direction: initial;
+        padding-top: 33px;
+        padding-bottom: 64px;
+        gap: 32px;
+    }
+
+    .educated__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .video__two {
+        flex: 1 1 296px;
+        min-width: 296px;
+    }
 }

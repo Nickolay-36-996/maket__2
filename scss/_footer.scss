@@ -123,3 +123,53 @@
     line-height: 20px;
     color: #9FA1AD;
 }
+
+@media(max-width: 992px) {
+    .footer__wrapper {
+        flex-wrap: wrap;
+        padding: 32px 12px;
+    }
+
+    .footer__top {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .link__wrapper {
+        gap: 32px;
+    }
+
+    .link__footer {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .contacts {
+        gap: 16px;
+    }
+
+    .footer__down {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .for__footer {
+        display: block;
+    }
+}
+
+@media(max-width: 320px) {
+    .footer__logo {
+        flex-direction: initial;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo__txt {
+        min-width: 161px;
+    }
+
+    .link__box {
+        min-width: 142px;
+    }
+}

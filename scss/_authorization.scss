@@ -81,12 +81,14 @@
         flex-direction: initial;
         padding: 24px 12px;
         flex-wrap: wrap;
+        gap: 24px;
     }
 
     .authorization__txt__box {
         gap: 24px;
         padding: 0;
         flex: 1 1 296px;
+        min-width: 296px;
     }
 
     .authorization__title {
@@ -97,9 +99,18 @@
     .authorization__txt {
         font-size: 14px;
         line-height: 22px;
+        padding: 0;
     }
 
     .registration__box {
         flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .registration {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 12px 75px;
     }
 }
