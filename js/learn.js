@@ -1,9 +1,13 @@
 'use strict'
-let age = prompt('Призывной возраст?');
-if (age < 18) {
-    alert('гуляй');
-} else if (age >= 18 && age <27) {
-    alert('в армию');
-} else {
-    alert('на работу');
+let login = prompt('Введите логин')
+let password = prompt('Введите пароль')
+let dataLogin = 'Admin'
+let dataPassword = '12345'
+console.log(login)
+console.log(password)
+if (login != dataLogin && password != dataPassword) {
+    alert (' В доступе отказано')
+}
+else {
+    alert ('Доступ разреш')
 }
