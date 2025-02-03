@@ -9,7 +9,8 @@
 .about__wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 253px;
+    justify-content: space-between;
+    align-items: flex-start;
     padding-top: 80px;
     padding-bottom: 167px;
 }
@@ -64,7 +65,7 @@
         background: white;
     }
     .about__wrapper {
-        padding: 40px 12px;
+        padding: 40px 0;
         gap: 40px;
     }
 

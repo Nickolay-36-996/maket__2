@@ -12,68 +12,64 @@
 //     alert ('Доступ разреш')
 // }
 
-// let year = prompt ('какой сейчас год?');
-// year = Number(year);
-// console.log (year % 4 == 0 && year % 100 == 1);
-// if (year % 4 == 0 && year % 100 != 0) {
-//     let date = prompt ('какая сейчас дата?')
-//     date = Number(date);
-//     if (date == 29) {
-//         alert ('магическая дата')
-//     }
-//     else {
-//         alert ('обычная дата');
-//     }
+// let temperature = prompt('Рекомендация по температуре')
+// temperature = Number(temperature)
+// if (temperature < -10) {
+//     alert ('Очень холодно! Оденьте теплую куртку, шапку и перчатки')
+// }
+// else if (temperature >= -10 && temperature <= 10) {
+//     alert ('Прохладно! Неденьте куртку')
+// }
+// else if (temperature >= 11 && temperature <= 20) {
+//     alert ('Комфортно! Можно выйти в лёгкой одежде')
+// }
+// else if (temperature >= 21) {
+//     alert ('Жарко! Одевайтесь легко')
 // }
 
-// let time = prompt ('какие сейчас сутки?')
-// time = Number(time);
-// if (time>=6 && time<=11) {
-//     alert ('доброе утро!')
+// let pay = prompt('Сумма вашей покупки?')
+// pay = Number(pay)
+// if (pay <= 1000) {
+//     alert ('Скидка 0%')
 // }
-// else if (time>=12 && time<=17) {
-//     alert ('добрый день!')
+// else if (pay >= 1000 && pay <= 5000) {
+//     alert ('Скидка 5%')
 // }
-// else if (time>=18 && time<=22) {
-//     alert ('добрый вечер!')
+// else if (pay > 5000 && pay <= 10000) {
+//     alert ('Скидка 10%')
 // }
-// else if (time==23 || time>=0 && time<=5) {
-//     alert ('спокойной ночи!')
-// }
-
-// let div = prompt ('проверка числа на делимость на 3 и на 5')
-// div = Number(div);
-// if (div %3 == 0 && div %5==0) {
-//     alert ('число делится на 3 и на 5')
-// }
-// else if (div %3 == 0) {
-//     alert ('число делится только на 3')
-// }
-// else if (div %5 == 0) {
-//     alert ('число делится только на 5')
-// }
-// else if (div %3 != 0 && div %5 != 1) {
-//     alert ('число не делится ни на 3, ни на 5')
+// else if (pay > 10000) {
+//     alert ('Скидка 15%')
 // }
 
- 
-// let account = prompt ('Введите логин')
+// let login = prompt ('Введите логин')
 // let password = prompt ('Введите пароль')
-// let datalogin = 'Admin'
-// let datapassword = 'qwerty123'
-// console.log (account)
-// console.log (password)
-// if (account != datalogin && password != datapassword ) {
-//     alert ('в доступе отказано')
-// } else {
-//     alert ('Доступ разрешен!')
+// let dataLogin = 'Admin'
+// let dataPassword = "qwerty123"
+// console.log(login)
+// console.log(password)
+// if (login != dataLogin && password != dataPassword) {
+//     alert ('В доступе отказано!')
+// }
+// else if (login == dataLogin && password != dataPassword) {
+//     alert ('Неверный пароль.')
+// }
+// else if (login != dataLogin && password == dataPassword || password != dataPassword) {
+//     alert ('Неверный логин.')
 // }
 
-let temperature = prompt ('Рекомендация по температуре')
-temperature = Number(temperature)
-if (temperature < -10) {
-    alert ('Очень холодно! Наденьте теплую куртку, шапку и перчатки')
-}
-else if (temperature > -10 && temperature >= 10) {
-    alert ('Прхладно! Наденьте куртку')
-}
+// for(let i = 0; i < 10; i = i + 1) {
+//     console.log(i)
+// }
+
+// let i = 0
+// while(i < 10) {
+//     console.log(i)
+//     i++;
+// }
+
+// let i = 'Саша'
+// console.log(i[0])
+
+// let i = "453tgrg4r3409t43t490"
+// console.log(i[0], i[i.length -1], i[i.length / 2])
