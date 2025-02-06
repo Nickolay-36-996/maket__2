@@ -1,8 +1,8 @@
 .intro {
     background-image: url(../img/Frame\ 13.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 0;
+    background-size: 1192px 1018px;
+    background-position: 575px 0;
 }
 
 .intro__wrapper {
@@ -10,7 +10,8 @@
     padding-bottom: 144px;
     display: flex;
     flex-direction: row;
-    gap: 138px;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .innovation {
@@ -18,7 +19,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 56px;
-    flex: 0 1;
+    flex: 0 1 576px;
 }
 
 .innovation__h1 {
@@ -46,6 +47,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #61636D;
+    max-width: 555px;
 }
 
 .link__partners {
